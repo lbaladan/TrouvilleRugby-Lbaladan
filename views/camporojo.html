@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Campo Rojo</title>
 <!-- CSS BOOTSTRAP --> 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> 
+<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<!-- CIERRE CSS BOOTSTRAP --> 
 <!-- CSS --> 
 	<link rel="stylesheet" type="text/css" href="../css/estilo.css"> 
@@ -48,45 +48,35 @@
 		</div>
 	</div>	
 <!-- NAV --> 
-	<div class="row">
-		<div class="col-lg-12 col-12">	
-				<ul class="nav nav-tabs">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="#">
-					<img src="../assets/img/rugby.png" width="30" height="30" alt="">
-				  </a>
-				  <a class="navbar-brand" href="../index.html">Inicio</a>
-				  <li class="nav-item">
-					<a class="nav-link" href="../views/historia.html">Historia</a>
-				  </li>
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				  </button>
-				  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav">
-						<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
-						  Planteles</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						  <a class="dropdown-item" href="../views/mayores.html">Mayores</a>
-						  <a class="dropdown-item" href="../views/femenino.html">Femenino</a>
-						  <a class="dropdown-item" href="../views/m19.html">M19</a>
-						  <a class="dropdown-item" href="../views/m17.html">M17</a>
-						</div>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="#">Campo Rojo</a>
-					  </li>
-                     
-					  <li class="nav-item">
-						<a class="nav-link" href="../views/contacto.html">Contacto</a>
-					  </li>
-					  
-					</ul>
-				  </div>
-			</nav>
-		</div>		
-	</div>	
+<div class="row">
+	<div class="col-lg-12 col-12">	
+		<ul class="nav nav-tabs">
+			<a class="navbar-brand" href="../index.html">
+				<img src="../assets/img/rugby.png" width="30" height="30" alt="">
+			  </a>
+			<li class="nav-item">
+			  <a class="nav-link active" href="../index.html">Inicio</a>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Planteles</a>
+			  <div class="dropdown-menu">
+				<a class="dropdown-item" href="../views/mayores.html">Mayores</a>
+				<a class="dropdown-item" href="../views/femenino.html">Femenino</a>
+				<a class="dropdown-item" href="#">M19</a>
+				<a class="dropdown-item" href="#">M17</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../views/historia.html">Historia</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Campo Rojo</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../views/contacto.html">Contacto</a>
+			</li>
+		  </ul>
+	</div>		
+</div>	
 </header>
 <!--MAIN-->
 <main>
@@ -101,12 +91,13 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-8 col-12">
-                <h2>EL CAMPO ROJO</h2>
-                <video class="videoCampoRojo" src="../assets/vid/camporojo.mp4" alt="camporojo" width="500" height="200"></video>
+        <div class="col-lg-6 col-12">
+                <h3>EL CAMPO ROJO</h3>
+                <video class="videoCampoRojo" src="../assets/vid/camporojo.mp4" alt="camporojo" width="500" height="300"></video>
+				<h5>¡DALE PLAY Y CONOCÉ NUESTRO COMPLEJO DEPORTIVO</h5>
             </div>
-            <div class="col-lg-4 lg-12">
-                <h2>CÓMO LLEGAR</h2>
+            <div class="col-lg-6 lg-12">
+                <h3>CÓMO LLEGAR</h3>
                 <iframe class="mapaCampoRojo" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13109.658492278237!2d-55.9817446!3d-34.770336!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6a06142720aa4fcb!2sCampo%20Rojo!5e0!3m2!1ses!2suy!4v1643221985604!5m2!1ses!2suy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>	
             </div>
         </div>
@@ -115,38 +106,28 @@
 </div>    
 </main>
 
-
-
-
-
-
-
-
 <!--FOOTER -->
 <footer>
-<div class="conteiner-fluid">
-	<div class="row">
-		<div class="col-lg-4 col-12">
+	<div class="conteiner-fluid">
+		<div class="row">
+			<div class="col-lg-4 col-12">
+				<h4>CAMPO ROJO</h4>
+						<h5>Ruta 101 km 28.50, Cno. Trouville</h5>
+			</div>
+			<div class="col-lg-4 col-12">
 				<h4>REDES SOCIALES</h4>
 					<a href="https://www.facebook.com/trouvillerugby/" target="_blank"><img src="../assets/img/facebook.png"alt="facebook" width="50" height="50"></a>
 					<a href="https://twitter.com/trouvillerugby/" target="_blank"><img src="../assets/img/tw.png"alt="twitter" width="50" height="50"></a>
 					<a href="https://www.instagram.com/trouvillerugby/" target="_blank"><img src="../assets/img/insta.png"alt="instagram" width="48" height="48"></a>
 		</div>
-
-		<div class="col-lg-4 col-12">
-			<h4>CAMPO ROJO</h4>
-					<h5>Ruta 101 km 28.50, Cno. Trouville</h5>
-			
+			<div class="col-lg-4 col-12">
+				<h4>SEDE SOCIAL</h4>
+						<h5>Chucarro 1031 esq. Martí</h5>		
+			</div>
 		</div>
-
-		<div class="col-lg-4 col-12">
-			<h4>SEDE SOCIAL</h4>
-					<h5>Chucarro 1031 esq. Martí</h5>		
-		</div>
-	</div>
-</footer>
+	</footer>
 <!--SCRIPT BOOTSTRAP -->
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>
