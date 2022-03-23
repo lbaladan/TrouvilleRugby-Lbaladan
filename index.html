@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+<!--HEAD-->	
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="rugby trouville club uru uruguay union rugby uruguay rugbier punta club amigos">
+	<meta name="description" content="sitio oficial del Rugby del Club Trouville. Haciendo Club desde 1951.">
 	<title>Trouville Rugby</title>
+<!--FUENTE-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,800&display=swap" rel="stylesheet"> 
 <!-- CSS BOOTSTRAP --> 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> 
 <!-- CSS --> 
 	<link rel="stylesheet" type="text/css" href="css/estilo.css"> 
-<!-- FUENTE --> 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">  
-</head>
+	</head>
 <body>
 <!-- ENCABEZADO --> 
 <header class="fluid">
@@ -49,31 +52,43 @@
 <!-- NAV --> 
 	<div class="row">
 		<div class="col-lg-12 col-12">	
-			<ul class="nav nav-tabs">
-				<a class="navbar-brand" href="#">
-					<img src="assets/img/rugby.png" width="30" height="30" alt="">
-				  </a>
-				<li class="nav-item">
-				  <a class="nav-link active" href="#">Inicio</a>
-				</li>
-				<li class="nav-item dropdown">
-				  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Planteles</a>
-				  <div class="dropdown-menu">
-					<a class="dropdown-item" href="views/mayores.html">Mayores</a>
-					<a class="dropdown-item" href="views/femenino.html">Femenino</a>
-					<a class="dropdown-item" href="#">M19</a>
-					<a class="dropdown-item" href="#">M17</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="views/historia.html">Historia</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="views/camporojo.html">Campo Rojo</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="views/contacto.html">Contacto</a>
-				</li>
-			  </ul>
+			<nav class="navbar navbar-expand-sm navbar-light bg-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<!-- logo -->
+				<a class="navbar-brand" href="index.html">
+				  <img src="assets/img/rugby.png" width="30" height="30" alt="">
+				</a>
+				
+				<!-- enlaces -->
+				<div class="collapse navbar-collapse" id="opciones">   
+				  <ul class="navbar-nav">
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Inicio</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="views/historia.html">Historia</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Planteles</a>
+						<div class="dropdown-menu">
+						  <a class="dropdown-item" href="views/mayores.html">Mayores</a>
+						  <a class="dropdown-item" href="views/femenino.html">Femenino</a>
+						  <a class="dropdown-item" href="#">M19</a>
+						  <a class="dropdown-item" href="#">M17</a>
+						</div>
+					  </li>
+					<li class="nav-item">
+					  <a class="nav-link" href="views/camporojo.html">Campo Rojo</a>
+					</li>         
+					<li class="nav-item">
+						<a class="nav-link" href="views/contacto.html">Contacto</a>
+					  </li>    
+				  </ul>
+				</div>
+			  </nav>
 		</div>		
 	</div>	
 </header>
@@ -139,6 +154,7 @@
 			<a href="https://uru-rugby.com/" target="_blank"><img src="assets/img/sguru.png" width="400" height="200" alt=""></a>
 		</div>
 	</div>
+	<br>
 	<div class="row d-flex justify-content-around">
 		<div class="col-lg-12 col-12">
 			<img src="assets/img/juga.png" width="1339" height="" alt="">
