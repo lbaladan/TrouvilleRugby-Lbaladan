@@ -1,54 +1,101 @@
 * {
-  font-family: 'Open Sans', sans-serif;
-}
+	font-family: 'Open Sans', sans-serif;}
+
 body {
-  margin: 5px; }
+	margin: 5px; }
+
+li {
+	list-style-type: none; /* elimina bullets*/}
+
+nav{
+	height: 35px;}
+
+.nav__item{
+	grid-area: nav;		
+	display: inline;
+	padding: 05px;}	
+
+.headercontacto{
+	grid-area: header;}
 
 h1 {
-  font-size: 50 px;
-  font-family: sans-serif;
-  text-align: center;
-  font-weight: bold;
-  color: #e2001a; }
-
-h2 {
-  text-align: center;
-  font-size: 25 px; }
-
-h3 {
-  font-size: 10 px;
-  font-family: sans-serif;
-  text-align: center;
-  font-weight: bold;
-  background-color: #172983;
-  color: #ffffff; }
-
-h4 {
-  font-size: 10 px;
-  text-align: center;
-  color: #172983; }
-
-h5 {
-  font-size: 5 px;
-  color: #e2001a; }
+	font-size: 50 px;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: #e2001a; }
   
-img {
-  text-align: center; }
+h2 {
+	text-align: center;
+	font-size: 25 px; }
+  
+h3 {
+	font-size: 7 px;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bold;
+	background-color: #172983;
+	color: #ffffff; }
+  
+h4 {
+	font-size: 10 px;
+	text-align: center;
+	color: #172983; }
+  
+h5 {
+	font-size: 5 px;
+	color: #e2001a; }
+	
+.placeholder {
+	font-size: 5px; }
 
-div {
-  text-align: center; }
-
-p {
-  text-align: justify;
-  margin: 20px;
-  padding: 20px; }
-
-.texto.historia {
-  text-align: justify;
-  margin: 20px;
-  padding: 20px; }
-
-footer {
- margin: 20 px;
-  text-align: center; 
+.placeholder:hover{
+	font-size: 10px;
 }
+  
+div {
+	text-align: center; }
+  
+p {
+	text-align: justify;
+	margin: 20px;
+	padding: 20px; }
+
+a {
+	color: #e2001a;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none; /* elimina subrayado*/}
+
+a:hover {
+	color: #172983;
+	font-size: 20px;}
+
+.row-juga{
+	margin: 10px;}
+	
+footer {
+   margin: 20 px;
+	text-align: center;}
+
+.foopadre {
+	text-align:center;
+	grid-area: footer; }
+  
+.foohijo {
+	padding: 10px;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-top: 10px;
+	display: inline-block;}
+  
+/*MQ MOBILE*/
+@media only screen	and (max-width:  768px){
+}
+/*MQ TABLET*/
+@media only screen	and (min-width:  769px) and (max-width:  1023px){
+}
+/*MQ DESKTOP*/
+@media only screen	and (min-width:  1024){
+}
+

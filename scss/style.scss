@@ -53,3 +53,12 @@
 	text-align: center; 
   }
   
+  .navbar-collapse{ 
+	font-size: 15 px;
+	transition: font-size 2 seg;
+  }
+  
+  .navbar-collapse:hover{
+	font-size: 20 px;
+  }
+  
